@@ -11,11 +11,15 @@ public class Main {
         taffe.falar("Aprendendo Classes em Java");
 
 
-        taffe.andar(10);
-        taffe.andar(10);
-        taffe.andar(52);
-        taffe.andar(30);
+        taffe.andar(10, true);
+        taffe.andar(10, true);
+        taffe.andar(52, false);
+        taffe.andar(30, false);
         taffe.retornarPosicao();
+
+        Taffe patrick = new Taffe();
+        patrick.andar(20, true);
+        patrick.retornarPosicao();
 
     }
 }
