@@ -13,6 +13,8 @@ public class Main {
 
         taffe.andar(10);
         taffe.andar(10);
+        taffe.andar(52);
+        taffe.andar(30);
         taffe.retornarPosicao();
 
     }

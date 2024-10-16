@@ -14,12 +14,15 @@ public class Taffe {
         System.out.println(oqueFalar);
     }
 
-    public void andar (int quantidadePassos){
+    public void andar (int quantidadePassos, boolean paraFrente){
         for (int i = 1; i <= quantidadePassos; i++){
             System.out.println("Passo: " + i);
         }
+        if (paraFrente == true){
         posicaoAtual += quantidadePassos;
-
+        }else {
+            posicaoAtual -= quantidadePassos;
+        }
     }
 
     public void retornarPosicao(){
