@@ -23,7 +23,7 @@ public class Taffe {
     }
 
     public void retornarPosicao(){
-        System.out.println(posicaoAtual);
+        System.out.println("Minha posição é " + posicaoAtual);
     }
 
     //andar
