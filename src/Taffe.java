@@ -4,6 +4,8 @@ public class Taffe {
 
     public String versao;
 
+    public int posicaoAtual = 0;
+
     public String dizerOi(){
         return "Oi pessoal";
     }
@@ -13,10 +15,15 @@ public class Taffe {
     }
 
     public void andar (int quantidadePassos){
-        for (int i = 0; i <= quantidadePassos; i++){
+        for (int i = 1; i <= quantidadePassos; i++){
             System.out.println("Passo: " + i);
-
         }
+        posicaoAtual += quantidadePassos;
+
+    }
+
+    public void retornarPosicao(){
+        System.out.println(posicaoAtual);
     }
 
     //andar
